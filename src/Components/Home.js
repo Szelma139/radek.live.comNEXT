@@ -7,7 +7,6 @@ import Background from './Images/background.jpg';
 import Background1 from './Images/background1.jpg';
 import CppIcon from './cpp.png';
 import Alert from 'react-bootstrap/Alert'
-import Avatar from 'avataaars';
 import ReactIcon from './Icons/react.svg';
 import SqlIcon from './Icons/sql.png';
 import NetIcon from './Icons/dotnet.svg';
@@ -15,6 +14,7 @@ import QtIcon from './Icons/Qt.svg';
 import LinuxIcon from './Icons/Linux.svg';
 import MaterialIcon from './Icons/material.png';
 import JavascriptIcon from './Icons/javascript.png';
+import Avatar from './Images/avatar.png'
 
 
 
@@ -61,7 +61,7 @@ export default function Home() {
     <>
     
 
-     <Alert variant="warning">
+     <Alert variant="warning" style={{fontSize:'1.5em'}}>
           <Alert variant="warning" style={{width:'60%', float: 'left  '}}>
   <Alert.Heading>Witaj!</Alert.Heading>
 
@@ -79,20 +79,7 @@ export default function Home() {
      
   <div style = {{  borderRadius:'10px',borderCollapse: 'collapsed'}}>
 
-  <Avatar
-  style={{float:'right'}}
-  avatarStyle='Circle'
-  topType='ShortHairShortWaved'
-  accessoriesType='Prescription02'
-  hairColor='BlondeGolden'
-  facialHairType='Blank'
-  clotheType='Hoodie'
-  clotheColor='Gray01'
-  eyeType='WinkWacky'
-  eyebrowType='UpDown'
-  mouthType='Twinkle'
-  skinColor='Light'
-/>
+<img style={{width:'40%', height:'40%'}} src={Avatar} alt="Blog link" href="https://szelma139.github.io/"/>
 </div>
 </Alert>
 <div className="container">
