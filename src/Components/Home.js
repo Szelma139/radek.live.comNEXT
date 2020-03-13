@@ -82,6 +82,15 @@ export default function Home() {
 <img style={{width:'40%', height:'40%'}} src={Avatar} alt="Blog link" href="https://szelma139.github.io/"/>
 </div>
 </Alert>
+
+<Grid container spacing ={6}>
+  <Grid item xs={12}>
+    <h3>Kilka słów o mnie:</h3>
+    <p>Mam na imię Radek. Ukończyłem studia na Politechnice Rzeszowskiej jak magister inżynier ze specjalności sieci i systemy komputerowe, posiadam dużą wiedzę z tego obszaru. Jednak
+zajmuje się również programowaniem, dzięki zbieżnościom losu i dużej upartości a może równiez tego że jestem trochę samoukiem. 
+    </p>
+  </Grid>
+</Grid>
 <div className="container">
   
     <div>
@@ -103,7 +112,7 @@ export default function Home() {
 
       <Grid container spacing={6}>  
         <Grid item xs={12}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Głównie zajmuje się pisaniem programów w C++ (QT) oraz działaniem w obszarze React/React Native/Next.js, natomiast na tej stronie pokazuje wszystkie technologie z którymi miałem dłuższą styczność, jednak nie w tak zaawansowanym stopniu jak C++.
 </Grid>
 </Grid>
 
@@ -111,11 +120,11 @@ export default function Home() {
 <Grid container spacing={6}>  
   
   <Grid item xs={4} >
-  <MyCard name={'SQL'} path={SqlIcon} tekst={'Konstrukcja programów desktopowych'}/>
+  <MyCard name={'SQL'} path={SqlIcon} tekst={'SELECT, JOIN .. FROM'}/>
 
        </Grid>
   <Grid item xs={4}>
-  <MyCard name={'QT'} path={QtIcon} tekst={'Qt Framework w wersji 5'}/>
+  <MyCard name={'QT'} path={QtIcon} tekst={'Qt Framework'}/>
 
   </Grid>
   <Grid item xs={4}>
@@ -127,7 +136,7 @@ export default function Home() {
 <Grid container spacing={6}>  
   
   <Grid item xs={4} >
-  <MyCard name={'React'} path={ReactIcon} tekst={'Konstrukcja programów desktopowych'}/>
+  <MyCard name={'React'} path={ReactIcon} tekst={'Konstrukcja aplikacji webowych/natywnych'}/>
 
        </Grid>
   <Grid item xs={4}>
@@ -141,12 +150,12 @@ export default function Home() {
 </Grid>
 
 
-<Grid container spacing={6}>  
+<Grid container spacing={6}>
   <Grid item xs={12}>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p>Miałem również styczność z oprogramowaniem serwerowym na linxie, klientami VNC/RDP, zdalnymi pulpitami oraz oczywiście dokumentacją techniczną oraz automatyzacją pracy przy użyciu skryptów w pythonie.</p> 
+<p>Polecam również przyjrzeć się kilku programom z mojego Githuba. Pod spodem kilka linków do kontaktu ze mną.</p>
 </Grid>
-</Grid>
-
+</Grid> 
     </div>
     </div>
     </>
